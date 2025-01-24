@@ -1,0 +1,20 @@
+name: lab03  # Add this line
+description: "A new Flutter project."
+publish_to: 'none'  # This line prevents accidental publishing
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  form_field_validator: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
